@@ -262,6 +262,13 @@ a:hover {
     }
 }
 
+@media all and (max-width: 470px){
+    .hero-contents > .text {
+        font-size: 7.5px;
+        width: 95%;
+    }
+}
+
 @media all and (max-width: 301px){
     .hero-header > ul {
         font-size: 10px;
@@ -273,7 +280,8 @@ a:hover {
     }
 
     .hero-contents > .text {
-        font-size: 9px;
+        font-size: 7.5px;
+        width: 95%;
     }
 }
 
